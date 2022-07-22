@@ -23,6 +23,7 @@ default = ["image"]
 
 [dev-dependencies]
 criterion = "0.3"
+rand = { version = "0.8", features = ["std", "std_rng"] }
 
 [[bench]]
 name = "open_simplex"
